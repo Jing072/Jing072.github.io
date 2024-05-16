@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="img/logo.png" class="img-fluid" alt="Responsive image" width="75" height="70">
@@ -29,11 +29,21 @@
               <li class="nav-item">
                 <a class="nav-link" href="about-me.html"> About me</a>
               </li>
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projecten
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="project.html"> Hoger Lager </a></li>
+                  <li><a class="dropdown-item" href="#"> Escape room </a></li>
+                  <li><a class="dropdown-item" href="#"> Whack a Mole</a></li>
+                  <li><a class="dropdown-item" href="#"> Event Countdown </a></li>
+                  <li><a class="dropdown-item" href="#"> Webcatalogus </a></li>
+                  <li><a class="dropdown-item" href="#"> Dashboard </a></li>
+                </ul>
+              </div>
               <li class="nav-item">
-                <a class="nav-link" href="project.html"> Projecten </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="exprience.html"> Ervaring </a>
+                <a class="nav-link" href="experience.html"> Ervaring </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html"> Contact </a>
@@ -47,11 +57,70 @@
       </div>
     </header>
     <main>
-      
+      <!-- Hier onder laat ik wat zien over mijzelf -->
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h4 class="card-title"> Wie ben ik? </h4>
+              <img class="card-img-top" src="img/About me.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"> Klik hier om meer te weten over mij </p>
+                <a href="about-me.html" class="card-link stretched-link"> Over mij </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h4 class="card-title"> Over mijn projecten </h4>
+              <img class="card-img-top" src="img/project.jpg" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"> Klik hier om meer te weten over mijn projecten </p>
+                <a href="project.html" class="card-link stretched-link"> over mij projecten </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h4 class="card-title"> Over mijn ervaring </h4>
+              <img class="card-img-top" src="img/ervaringen.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"> Klik hier om meer te weten over mijn ervaring </p>
+                <a href="experience.html" class="card-link stretched-link"> Over mijn ervaring </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hier onder laat ik paar projecten zien die ik heb gemaakt -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h4 class="card-title"> Hoger Lager </h4>
+              <img class="card-img-top" src="img/Hoger Lager.png" alt="Card image cap">
+                <a href="project.html" class="card-link stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h4 class="card-title"> Whack a Mole </h4>
+              <img class="card-img-top" src="img/Whack a Mole.png" alt="Card image cap">
+                <a href="project.html" class="card-link stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h4 class="card-title"> Webcatalogus </h4>
+              <img class="card-img-top" src="img/Webcatalogus.png" alt="Card image cap">
+                <a href="project.html" class="card-link stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
 
     </footer>
-    
 </body>
 </html>

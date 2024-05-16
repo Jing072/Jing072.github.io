@@ -1,3 +1,7 @@
-.container-fluid {
+.card {
+    margin: 15px;
+}
 
+a {
+    text-decoration: none;
 }
