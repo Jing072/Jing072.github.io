@@ -10,92 +10,140 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" class="img-fluid" alt="Responsive image" width="75" height="70">
-            Portfolio van Jing Yi Jin
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-navbar"
-            aria-controls="collapse-navbar" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapse-navbar">
-            <ul class="navbar-nav nav-underline">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"> Home </a>
-              </li>
-              <div class="dropdown">
-                <button class="nav-link btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Projects
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"> Hoger Lager </a></li>
-                  <li><a class="dropdown-item" href="#"> Escape room </a></li>
-                  <li><a class="dropdown-item" href="#"> Whack a Mole</a></li>
-                  <li><a class="dropdown-item" href="#"> Event Countdown </a></li>
-                  <li><a class="dropdown-item" href="#"> Webcatalogus </a></li>
-                  <li><a class="dropdown-item" href="#"> Dashboard </a></li>
-                </ul>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> about me </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> Contact </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <main>
+    <!-- nav -->
+    <div class="container-fluid bg-dark bg-gradient bg-opacity-80">
+      <nav class="nav navbar navbar-expand-md mx-3">
+        <a class="navbar-brand text-white fw-light" href="index.html">
+           <img src="img/logo.png" class="img-fluid" alt="Responsive image" width="75" height="70">
+          Portfolio van Jing Yi Jin
+        </a>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-navbar"
+          aria-controls="collapse-navbar" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapse-navbar">
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html"> Home </a>
+            </li>
+            <div class="dropdown">
+              <button class="nav-link btn-dark dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </button>
+              <ul class="dropdown-menu text-white">
+                <li><a class="dropdown-item" href="#"> Hoger Lager </a></li>
+                <li><a class="dropdown-item" href="#"> Escape room </a></li>
+                <li><a class="dropdown-item" href="#"> Whack a Mole</a></li>
+                <li><a class="dropdown-item" href="#"> Event Countdown </a></li>
+                <li><a class="dropdown-item" href="#"> Webcatalogus </a></li>
+                <li><a class="dropdown-item" href="#"> Dashboard </a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"> Portfolio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <!-- Here underneath you can find information about me -->
       <div class="container-lg">
-        <div class="row">
-          <div class="col-md-6">
+        <div class="row border mt-5 p-2">
+          <div class="col-md-6 mt-5 mb-5">
             <div class="about-me">
-              <h4 class="fw-light"> About me </h4>
-              <p class="fs-4">
+              <h4 class="fw-light text-white"> About me </h4>
+              <p class="text-white">
+                Hi, mijn naam is Jing Yi en ik ben 17 jaar oud. Ik doe de studie software development op het ROC Mondriaan in Brasserskade.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mb-5">
+            <div class="skills">
+              <h4 class="fw-light text-white"> Skills </h4>
+              <p class="">
 
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-
-          </div>
         </div>
-      </div>
-      <!-- Here are the projects I made -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card text-center">
+
+        <!-- Projects I made during the subject Project -->
+        <div class="row mt-5">
+          <h3 class="text-center text-white fw-light "> Projecten van het vak Project</h3>
+          <div class="col-md-3">
+            <div class="card bg-dark bg-gradient text-center text-white rounded-3">
               <h4 class="card-title fw-light"> Higher Lower </h4>
               <img class="card-img-top" src="img/Hoger Lager.png" alt="Card image cap">
                 <a href="project.html" class="card-link stretched-link"></a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card text-center">
+          <div class="col-md-3">
+            <div class="card bg-dark bg-gradient text-center text-white rounded-3">
               <h4 class="card-title fw-light"> Whack a Mole </h4>
               <img class="card-img-top" src="img/Whack a Mole.png" alt="Card image cap">
                 <a href="project.html" class="card-link stretched-link"></a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card text-center">
+          <div class="col-md-3">
+            <div class="card bg-dark bg-gradient text-center text-white rounded-3">
               <h4 class="card-title fw-light"> Webcatalogus </h4>
               <img class="card-img-top" src="img/Webcatalogus.png" alt="Card image cap">
                 <a href="project.html" class="card-link stretched-link"></a>
             </div>
           </div>
+          <div class="col-md-3">
+            <div class="card bg-dark bg-gradient text-center text-white rounded-3">
+              <h4 class="card-title fw-light"> Dashboard</h4>
+              <img class="card-img-top" src="img/" alt="Card image cap">
+                <a href="project.html" class="card-link stretched-link"></a>
+            </div>
+          </div>
         </div>
-      </div>
-    </main>
-    <footer>
+  
+        <!-- Projects of the themeweek -->
+        <div class="row mt-5">
+          <h3 class="text-center text-white fw-light"> Projecten van de themaweek </h3>
+          <div class="col-md-3">
+            <div class="card bg-dark bg-gradient text-center text-white rounded-3">
+              <h4 class="card-title fw-light"> Escaperoom </h4>
+              <img class="card-img-top" src="img/Escape room puzzle.png" alt="Card image cap">
+                <a href="project.html" class="card-link stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-dark bg-gradient text-center text-white rounded-3">
+              <h4 class="card-title fw-light"> Event Countdown </h4>
+              <img class="card-img-top" src="img/Event Countdown.png" alt="Card image cap">
+                <a href="project.html" class="card-link stretched-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    </footer>
+        <!-- Information about the portfolio -->
+        <div class="container-fluid">
+          <div class="container-lg">
+            <div class="row">
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+       <div class="container-fluid">
+          <div class="container-lg">
+            <div class="row">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
 </body>
 </html>
